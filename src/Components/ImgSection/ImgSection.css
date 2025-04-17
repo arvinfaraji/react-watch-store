@@ -1,0 +1,8 @@
+.back-con{
+    height: 300px;
+    background-image: url('./../../../public/images/Form-images/sign-in-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.5;
+}

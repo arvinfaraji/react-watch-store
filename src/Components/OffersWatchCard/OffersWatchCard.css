@@ -1,0 +1,35 @@
+.offer-container-styles {
+    background-color: #ffc107;
+    width: 90%;
+    border-radius: 10px;
+}
+.offer-awarad-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offer-watch-img{
+    height: 200px;
+    width: 200px;
+}
+.offer-link{
+    text-decoration: none;
+    font-weight: lighter;
+}
+.offers-card-container{
+    background-color: white;
+    padding: 10px 40px;
+    margin: 25px 20px;
+    border-radius: 10px;
+}
+.total-offer{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    height: max-content;
+    padding: 3px 17px;
+    border-radius: 40px;
+}

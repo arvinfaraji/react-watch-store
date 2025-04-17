@@ -1,0 +1,35 @@
+.swiper-watch-con{
+    /* width: 300px !important; */
+    min-width: 300px !important;
+    user-select: none;
+}
+.all-watch-container{
+    padding: 10px;
+}
+.dd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    transition: all .15s;
+}
+.watch-link:hover{
+    color: yellow;
+}
+.all-watch-img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.all-watch-con{
+    
+}

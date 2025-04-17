@@ -1,0 +1,92 @@
+.filter-section{
+    
+}
+.accordion-button{
+    background-color: #40403e !important;
+    /* margin: 30px 0; */
+}
+
+@media screen and (max-width: 922px) {
+    .max-filter-display-breakpoit {
+       display: none
+    }
+}
+@media screen and (min-width: 922px) {
+    .min-filter-btn-display-breakpoit {
+       display: none;
+    }
+}
+@media screen and (max-width: 922px) {
+    .watch-display-breakpoit {
+       justify-content: center;
+    }
+}
+.filter-company-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter-item-text{
+    font-family: 'Byekan', sans-serif;
+    font-size: 21px;
+}
+.filter-brand-img{
+    width: 100px;
+}
+.filter-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+    .dropdown-content {
+    position: absolute;
+    top: 100%;
+    /* left: 0; */
+    background: white;
+    min-width: 200px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s;
+    pointer-events: none;
+    border-radius: 0.5rem;
+    }
+
+    .dropdown:hover .dropdown-content {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    }
+
+    .dropdown-content a {
+    color: #374151;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+    }
+
+    .dropdown-content a:hover {
+    background: #f3f4f6;
+    }
+.btn-close{
+    background-color: white;
+    margin-top: 70px !important;
+    margin-bottom: 20px !important;
+}
+.offcanvas-header {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    height: 150px;
+    border-bottom: 1px solid white;
+}

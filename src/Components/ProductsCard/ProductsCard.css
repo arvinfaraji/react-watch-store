@@ -1,0 +1,24 @@
+.products-watch-image{
+    width: 250px;
+    height: 300px;
+}
+.watch-card-container{
+    margin: auto;
+    border-bottom: 1px solid rgb(102, 101, 101);
+    border-radius: 5px;
+    width: max-content;
+    padding: 20px;
+}
+.watch-title{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    transition: all .15s;
+}
+.watch-title:hover{
+    color: #FFC107;
+}

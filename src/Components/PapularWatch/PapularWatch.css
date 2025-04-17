@@ -1,0 +1,12 @@
+.buy-watch-btn{
+    all: unset;
+    cursor: pointer;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    padding: 7px 15px;
+    transition: all .20s;
+}
+.buy-watch-btn:hover{
+    background-color: yellow;
+    color: black;
+}

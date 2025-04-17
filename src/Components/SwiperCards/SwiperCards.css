@@ -1,0 +1,67 @@
+.swiper {
+    width: 240px;
+    height: 320px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cards-back-img-1 {
+    background-image: url('./../../../public/images/Watch/png-transparent-rolex-daytona-rolex-datejust-rolex-submariner-watch-u52b3u529bu58ebu5b87u5b99u8ba1u578bu8feau901au62ff-black-rolex-watch-black-hair-watch-accessory-black-white-removebg-preview-min.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.cards-back-img-2 {
+    background-image: url('./../../../public/images/Watch/9-95023_rolex-watch-png-transparent-image-rolex-submariner-rolex-removebg-preview-min.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.cards-back-img-3 {
+    background-image: url('./../../../public/images/Watch/automatic-watch-rolex-watch-strap-gold-watches-rolex-watches-female-form-removebg-preview-min.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.cards-back-img-4 {
+    background-image: url('./../../../public/images/Watch/download-removebg-preview-min.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+

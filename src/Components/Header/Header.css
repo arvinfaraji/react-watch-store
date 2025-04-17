@@ -1,0 +1,132 @@
+.navbar{
+    z-index: 10000000;
+    background-color: #1D1D1B;
+}
+.profile-section {
+    width: max-content;
+    border: 1px solid #E8E9E4;
+    border-radius: 10px;
+    padding: 4px 15px;
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.text-none {
+    text-decoration: none;
+}
+
+.product-number {
+    font-size: 20px;
+    color: yellow;
+    padding: 0px 8px;
+}
+
+@media screen and (min-width: 922px) {
+    .nav-link-2 {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .margin-top-bottom-breakpoint {
+        margin: 8px 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 922px) {
+    .lg-margin-links-breakpoint {
+        margin: 0px 15px !important;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .login-btn-display-breakpoint {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .login-btn-breakpoint {
+        width: max-content;
+    }
+}
+
+.header-search-input {
+    all: unset;
+    background-color: transparent;
+    border: 1px solid #FFC107;
+    padding: 7px 30px;
+    border-radius: 2px;
+    margin: 0 20px;
+}
+
+.links-contet-section {
+    display: flex;
+    align-items: center;
+}
+
+.nav2-links-style {
+    text-decoration: none;
+    color: white;
+    font-family: 'Byekan', sans-serif;
+    font-size: 22px;
+    margin-left: 22px;
+    transition: all .15s;
+    position: relative;
+    /* برای موقعیت‌دهی صحیح منو */
+}
+
+.nav2-links-style:hover {
+    color: #FFC107;
+    /* تغییر رنگ لینک اصلی هنگام هاور */
+}
+
+.nav2-item {
+    position: relative;
+    /* برای موقعیت‌دهی صحیح منو */
+}
+
+.menu-item-links {
+    display: none;
+    height: 400px;
+    background-color: #40403e;
+    border-radius: 10px;
+    position: fixed;
+    /* یا absolute */
+    top: 170px;
+    /* فاصله از بالای صفحه (با توجه به ارتفاع نوار بالایی) */
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* عرض کامل صفحه */
+    z-index: 1000;
+    /* اطمینان از نمایش منو روی سایر عناصر */
+}
+
+.nav2-item:hover .menu-item-links {
+    display: flex;
+    /* نمایش منو هنگام هاور */
+}
+.watch-brand{
+    display: block;
+    font-family: 'Byekan', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    transition: all .15s;
+}
+.watch-brand:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 991px) {
+    .max-nav2-watch-items {
+        display: none;
+    }
+}

@@ -1,0 +1,26 @@
+.comment-box{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.top-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-display{
+    display: flex;
+    align-items: center;
+}
+.body-box p {
+    font-family: 'BYekan';
+    font-size: 19px;
+    line-height: 35px;
+    text-align: right;
+    /* text-align: justify; */
+    padding: 25px 12px;
+}
+.bottom-body{
+    display: flex;
+    justify-content: space-between;
+}

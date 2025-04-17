@@ -1,0 +1,17 @@
+body{
+    direction: rtl;
+    background-color: #1D1D1B;
+    color: #E8E9E4;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: yellow;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }

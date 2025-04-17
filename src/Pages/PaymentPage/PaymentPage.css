@@ -1,0 +1,20 @@
+.description-pay-section li {
+    font-family: 'yekan';
+    padding: 5px 0;
+    text-align: justify;
+}
+.description-pay-section li {
+    font-family: 'Byekan', 'sans-serif';
+    font-size: 19px;
+}
+@media screen and (min-width: 768px) {
+    .inputs-display{
+        display: flex;
+        margin: 0 10px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .inputs-margin{
+        margin: 0 10px;
+    }
+}

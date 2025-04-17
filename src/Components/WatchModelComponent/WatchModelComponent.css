@@ -1,0 +1,26 @@
+.box-watch-model-parent{
+    cursor: pointer;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: 1px solid #FFC107;
+    transition: all .15s;
+}
+.box-watch-model-parent:hover{
+    transform: scale(1.1);
+    box-shadow: #FFC107 0px 5px 15px;
+
+}
+.watch-model-child{
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    transform: skewX(-15deg);
+    transform-origin: left bottom;
+    box-shadow: -13px 0 yellow;
+}

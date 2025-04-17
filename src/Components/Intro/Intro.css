@@ -1,0 +1,17 @@
+.intro-img{
+    background-color: #FFC107;
+    border-radius: 30% 70% 70% 30% / 32% 38% 62% 68% ;
+}
+@media screen and (max-width: 768px) {
+    .img-max-display{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .img-min-display{
+        display: none;
+    }
+}
+.carousel-control-prev-icon , .carousel-control-next-icon {
+    display: none;
+}

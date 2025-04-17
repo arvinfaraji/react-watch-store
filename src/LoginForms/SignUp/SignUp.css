@@ -1,0 +1,8 @@
+.bg-signup-img{
+    background-image: url('https://arvin-watch-shop.storage.c2.liara.space/Form-images/sign-in-image.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    min-width: 600px;
+    object-fit: cover;
+}

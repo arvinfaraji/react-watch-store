@@ -1,0 +1,28 @@
+.page-link{
+    background-color: #40403e;
+    color: #FFC107;
+    border: none;
+    margin: 0 10px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.page-link:hover{
+    background-color: #FFC107;
+    color: white;
+}
+.active > .page-link{
+    background-color: #FFC107;
+    color: #40403e;
+    border: 1px solid #FFC107;
+}
+
+.page-link:focus {
+    background-color: #FFC107;
+    color: #40403e;
+    border: 1px solid #FFC107;
+}
+
+.page-item:last-child .page-link , .page-item:first-child .page-link {
+    font-size: 21px;
+}

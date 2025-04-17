@@ -1,0 +1,184 @@
+.white {
+  height: 30px;
+  width: 60px;
+  background-color: white;
+  border-radius: 5px;
+}
+.black {
+  height: 30px;
+  width: 60px;
+  background-color: rgb(50, 50, 50);
+  border-radius: 5px;
+}
+.orange {
+  height: 30px;
+  width: 60px;
+  background-color: goldenrod;
+  border-radius: 5px;
+}
+.yellow {
+  height: 30px;
+  width: 60px;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+
+/* swiper  */
+.buypage-swiper {
+  width: 100%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+.top-buyPage-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.bottom-buypage-swiper {
+  height: 80%;
+  width: 100%;
+}
+
+/* .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  } */
+
+.bottom-buyPage-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.bottom-buyPage-slide .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.buypages-slides img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* end  */
+
+.info-boxes {
+  background: rgba( 255, 255, 255, 0.05 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px 5px;
+}
+.top-info-box{
+  display: flex;
+  justify-content: center;
+}
+
+.full-info-container{
+  padding: 10px 25px;
+  border: 1px solid rgb(70, 70, 70);
+  border-radius: 10px;
+}
+.info-li::marker{
+  color: yellow;
+  font-size: 20px;
+}
+.accordion-button {
+  color: #ffffff;
+  background-color: rgb(40, 40, 40);
+  font-size: 17px;
+  
+}
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: rgb(40, 40, 40);
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button::after {
+  color: yellow !important;
+}
+.accordion-item{
+  border: 0;
+  color: #ffffff;
+  background-color: rgb(40, 40, 40);
+  margin: 5px 0;
+}
+.accordion-body{
+  line-height: 35px;
+  font-size: 18px;
+}
+.accordion-item::after{
+  box-shadow: none;
+}
+/* Buyers' comments styles  */
+.Buyers-comments {
+  width: 300px;
+  height: 100%;
+}
+
+.Buyers-comments-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(40, 40, 40);
+  border: 2px solid rgb(92, 92, 92);
+}
+.buy-comment-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: start !important;
+}
+.buyers-img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  background-image: url('./../../../public/images/Users/team-member.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.comment-para{
+  text-align: justify;
+  line-height: 35px;
+  font-family: 'Byekan';
+}
+
+  .checkbox-wrapper-39 label {
+    display: block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+.Num-Of-Products{
+    font-size: 20px;
+    padding: 8px 20px;
+    margin: 10px 0;
+    width: max-content;
+    border-bottom: 1px solid yellow;
+}
+.miuse-btn , .add-btn{
+    all: unset;
+    font-size: 30px;
+    transition: all .15s;
+}
+.miuse-btn:hover{
+    color: red;
+}
+.add-btn:hover{
+    color: green;
+}
